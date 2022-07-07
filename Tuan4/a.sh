@@ -4,7 +4,7 @@
 count=0
 while [ $count -eq 0 ] 
 	do
-		echo "Nhap vao ten file: "
+		echo -e -n "\n\tNhap vao ten file: "
 		read namefile
 		if [ -e $namefile ]
 			then
