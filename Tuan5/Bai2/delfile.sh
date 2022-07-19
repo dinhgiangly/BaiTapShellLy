@@ -5,9 +5,9 @@ do
 		then
 		if [ -e $name_file ]
 			then
-				echo -e -n "\n\t5 dong dau trong file $name_file: "
+				echo -e -n "\n\t5 dong dau trong file $name_file:"
 				echo -e "\n`head -n 5 $name_file`"
-				echo -e "\n\t==============================="
+				echo -e "\n\t===================="
 				echo -e "\n\t1. Xoa file"
 				echo -e "\n\t2. Khong xoa va thoat"
 				echo -e -n "\n\tNhap lua chon: "
@@ -15,7 +15,7 @@ do
 				case $choice in
 					1)
 						echo "`rm $name_file`"
-						echo -e "\t=> Đã xoa file $name_file"
+						echo -e "\t=> Da xoa file $name_file"
 						;;
 					2)
 						echo -e "\tKhong xoa file $name_file"
@@ -30,4 +30,4 @@ do
 	else
 		echo -e "\t$name_file la file dang chay khong the xoa!"
 	fi
-done 
+done
