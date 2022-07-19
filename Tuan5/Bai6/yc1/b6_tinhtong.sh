@@ -7,4 +7,4 @@ tinhtong(){
 	done
 	echo -e "\n\tTong tu 1 -> $n bang: $sum "
 }
-tinhtong $n
+tinhtong

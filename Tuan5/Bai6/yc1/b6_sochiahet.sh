@@ -10,4 +10,4 @@ sochiahet(){
 		fi
 	done
 }
-sochiahet $n
+sochiahet 
